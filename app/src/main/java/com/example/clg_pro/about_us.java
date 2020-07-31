@@ -112,7 +112,7 @@ public class about_us extends Activity {
         l1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://catharsis.iiests.ac.in/"));
+                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/sounak-majumder-45b183197/"));
                 startActivity(browserIntent);
             }
         });
@@ -120,7 +120,7 @@ public class about_us extends Activity {
         l2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://catharsis.iiests.ac.in/"));
+                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/anish-de-1b090a193/"));
                 startActivity(browserIntent);
             }
         });
@@ -128,7 +128,7 @@ public class about_us extends Activity {
         l3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://catharsis.iiests.ac.in/"));
+                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/ahel-das-chatterjee-5145131a0/"));
                 startActivity(browserIntent);
             }
         });
@@ -136,7 +136,7 @@ public class about_us extends Activity {
         l4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://catharsis.iiests.ac.in/"));
+                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/devtanu-misra-1829441a0/"));
                 startActivity(browserIntent);
             }
         });
@@ -144,7 +144,7 @@ public class about_us extends Activity {
         l5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://catharsis.iiests.ac.in/"));
+                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/snehasish-dhar-b657721a0/"));
                 startActivity(browserIntent);
             }
         });
@@ -152,7 +152,7 @@ public class about_us extends Activity {
         l6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://catharsis.iiests.ac.in/"));
+                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/malay-gain-43466419a/"));
                 startActivity(browserIntent);
             }
         });
