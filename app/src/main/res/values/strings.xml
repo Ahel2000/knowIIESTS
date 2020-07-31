@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">knowIIESTS</string>
+    <string-array name="list">
+        <item>ABOUT IIESTS</item>
+        <item>BOOKS FOR 1st AND 2nd SEMESTERS</item>
+        <item>GRADING SYSTEM AND ACADEMIC CALENDER</item>
+        <item>CANTEENS INSIDE CAMPUS</item>
+        <item>BUS ROUTES FROM COMMON AREAS</item>
+        <item>CLUBS</item>
+        <item>FESTS AND EVENTS</item>
+        <item>MAP OF IIEST, SHIBPUR</item>
+        <item>TOURIST ATTRACTIONS AROUND IIEST</item>
+        <item>LINK TO OUR BLOG</item>
+        <item>ABOUT US</item>
+    </string-array>
+    <string-array name="list1">
+        <item>BOTANICAL GARDEN</item>
+        <item>VICTORIA MEMORIAL</item>
+        <item>INDIAN MUSEUM</item>
+        <item>NANDAN</item>
+        <item>PRINCEP GHAT</item>
+        <item>ALIPOOR ZOO</item>
+    </string-array>
+    <string name="title_activity_iiestcampusmap">Map</string>
+    <string name="title_activity_botag">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_victoria">ScrollingActivity</string>
+    <string name="canteen_intro">An institute is incomplete without its ability to satisfy the huge appetite
+    of thousands of students. Here we list all the canteens and food shops inside the IIEST campus. Feel free
+    to give reviews in the dialog box provided at the bottom of the page. Happy Fooding IIESTians!</string>
+    <string name="list_cant">LIST OF CANTEENS</string>
+    <string name="c_rev">Please provide your review</string>
+
+    <string-array name="canteens">
+        <item>Institute Canteen</item>
+        <item>Ladies Canteen</item>
+        <item>Cafe inn</item>
+    </string-array>
+
+    <string name="route_head">How to reach?</string>
+    <string name="des">We are providing you with the most convenient bus and metro routes
+        to reach the most important destinations from IIEST. Surely you can take a cab or other alternative routes.</string>
+    <string name="metro">Nearest metro station: Rabindra Sadan (active) (9 km) and Howrah (proposed)</string>
+    <string name="rail">Nearest Railway station: Howrah (7 km)</string>
+    <string name="airport">Nearest airport: Netaji Subhas Chandra Bose Terminus, Dum Dum (28 km)</string>
+    <string name="howrah">Howrah Railway Station (7 km)</string>
+    <string name="howrahdes">Take any of the buses - 1)Esplanade - B Garden, 2)55 </string>
+    <string name="exide">Rabindra Sadan Metro (Exide) (9 km)</string>
+    <string name="exidedes">Take any of the buses - Barasat - B Garden, Dhamkhali - B Garden , 213A ,Sealdah - B Garden or </string>
+    <string name="sealdah">Sealdah Railway Station (11 km)</string>
+    <string name="sealdahdes">Take the bus Sealdah - B Garden</string>
+    <string name="dumdum">NSCB Airport (Dum Dum) (28 km)</string>
+    <string name="dumdumdes">Take any bus to Rabindra Sadan Metro Station, take a metro to Dum Dum station
+    or Belgachia station, then any Airport bound bus. Or go to Sealdah, take any Main line train to Dum Dum and
+    then any Airport bound bus.</string>
+    <string name="about">We, team FUTURISTS hope to provide you with the small details that every IIESTian needs.
+    Contact us for reviews and suggestions and for any app or web projects.</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/item1"
+        android:title="Home"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item2"
+        android:title="Books"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/item3"
+        android:title="Routes"
+        android:orderInCategory="3"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item4"
+        android:title="Map"
+        android:orderInCategory="4"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/item5"
+        android:title="Our Blog"
+        android:orderInCategory="5"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item6"
+        android:title="Recruiting Companies"
+        android:orderInCategory="6"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="About Us"
+        android:orderInCategory="7"
+        app:showAsAction="ifRoom"/>
+
+</menu>

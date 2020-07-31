@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".Robodarshan">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Robodarshan">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="24sp"
+            android:text="ROBODARSHAN"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="ROBODARSHAN, the Robotics Society of IIEST Shibpur, is one of the most active student societies helping in inculcating among students the scientific temper and zeal to show how robotics is closely related to our daily world and how they make our lives easier by AUTOMATON. Founded in 2009, the club became an official part of Centre for Creative Expressions in 2011 and since then the club has been progressing with leaps and bounds. Thanks to the intelligent students who become active members of this club enabling smooth functioning by occupying key positions of responsibilities. The club now operates under HJBSIC-ROBODARSHAN, along with Student's Innovation Centre, under the able guidance of Prof. Syed Minhaz Hossain, our professor-in-charge as well as our mentor."/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT THE WEBSITE"
+            android:layout_marginTop="20dp"
+            android:onClick="site"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT THE FACEBOOK PAGE"
+            android:layout_marginTop="10dp"
+            android:onClick="fb"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+    </LinearLayout>
+</ScrollView>

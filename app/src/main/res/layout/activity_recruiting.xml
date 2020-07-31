@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    tools:context=".recruiting">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="#8BC34A"
+            android:backgroundTint="#9CBD75"
+            android:fontFamily="cursive"
+            android:text="RECRUITING COMPANIES"
+            android:textAlignment="center"
+            android:textColor="#673AB7"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="648dp"
+            android:src="@drawable/comp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="644dp"
+            android:src="@drawable/comp2" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="654dp"
+            android:src="@drawable/comp3" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="607dp"
+            android:src="@drawable/stat4" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="#FFEB3B"
+            android:backgroundTint="#FFEB3B"
+            android:fontFamily="cursive"
+            android:text="PLACEMENT STATISTICS FOR 2019"
+            android:textAlignment="center"
+            android:textColor="#FF9800"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="657dp"
+            android:src="@drawable/stat1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="411dp"
+            android:src="@drawable/stat2" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="495dp"
+            android:src="@drawable/stat3" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/black"/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,48 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".Codeiiest">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_orange_dark"
+            android:text="CODE IIEST"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="CodeIIEST is one of the newest clubs of Indian Institute of Engineering Science and Technology, Shibpur. Formed in Nov'14 , the club has been actively involved in cultivating comprehensive skills in computer science among the students. The club consists of various enthusiasts and is a wonderful hub for a plethora of informative and interactive sessions. The students keep themselves updated with the emerging technologies, which further help them strengthen their skills and enhance creativity and innovation.
+The main aim of this club is to create a platform for the ones who have a knack in competitive coding where they can discuss problems, algorithms and other related stuff. Other than that, we organize tutorial sessions and online algorithmic competitions.
+Our innovative minds find out the different ways we can use machine learning to solve our real life problems effectively and efficiently.
+This club is mainly for the people who are interested in InfoSec. We focus on Reverse Engineering, Web Apps Security, Android Security, Binary Exploitation, Hardware Hacking and what not, You name it we do it."/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT THE WEBSITE"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:onClick="site"
+            android:background="@android:color/black"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT THE FACEBOOK PAGE"
+            android:layout_marginTop="10dp"
+            android:onClick="fb"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+
+    </LinearLayout>
+</ScrollView>

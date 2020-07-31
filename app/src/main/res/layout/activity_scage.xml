@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".Scage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Scage">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="SCAGE"
+            android:textColor="@android:color/holo_orange_dark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description - The Society for Creative Arts and Green Environment (SCAGE) is a society under the Center for Creative Expression of The Indian Institute Of Engineering Science and Technology, Shibpur. The function of this Society in the Institute of National Importance (INI) is to remain associated with the betterment of the campus ambience by improvising creativity and by nurturing creative arts (graphics).
+History - It was founded on 02nd March 2015 by Ayan Roy, a 4th Year student from the Department of Architecture Town and Regional Planning, IIEST Shibpur under the guidance of Professor Aditya Bandyopadhyay.
+First Work - The first work of the Society was a Graffiti named, The Evolution. This was inaugurated by the Governor of Tripura, Prof. Tathagata Roy in presence of the Director of IIEST Shibpur, Prof. Ajoy Kumar Ray and our Mentor Prof. Aditya Bandyopadhyay on 11th September 2015."
+            android:textColor="@color/colorPrimaryDark"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT THE FACEBOOK PAGE"
+            android:layout_marginTop="10dp"
+            android:onClick="fb"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+
+    </LinearLayout>
+</ScrollView>

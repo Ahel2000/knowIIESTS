@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "755254517503",
+    "firebase_url": "https://knowiiest.firebaseio.com",
+    "project_id": "knowiiest",
+    "storage_bucket": "knowiiest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755254517503:android:e7a503d9af63737f08b6ca",
+        "android_client_info": {
+          "package_name": "com.example.clg_pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755254517503-3utpduv433p5vi25qg4bo4ihmojndvik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGuruNfvzNqnE9GCgTi4LirUwUEYb2Xv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755254517503-3utpduv433p5vi25qg4bo4ihmojndvik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

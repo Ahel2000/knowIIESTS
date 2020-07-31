@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".Euphony">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Euphony"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="24sp"
+            android:text="EUPHONY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Life at IIEST(formerly BESU) campus is filled with a variety of self-enriching activities. They fulfil the expectations of students in all spheres of life, including Art and Culture, Sports and Fitness, Social Service and Technology among others. A number of clubs, societies and other organizations provide a wide range of activities outside the curriculum to satisfy one's needs of intellectual pleasure. The Music club is a vibrant and elite society of musically gifted students who come together and create fascinating melodies. The purpose of the club is to showcase the musical talent of the students. The club encourages young musicians to interact with each other and gives them an appropriate jam pad. It enables students to utilize their free time productively and do something what they, as music enthusiasts, are passionate about. The club recognizes exceptional talent and promotes it in the right direction. The students in the executive body arrange practice sessions for intra as well as inter college events. Thus, if a student wants to excel in the field of music, the club gives a platform to help achieve that goal. Symphony of the Soul is the only recluse for mankind. And it is for the achieving of this salvation that Euphony, the Music Society of Bengal Engineering and Science University, Shibpur was formed. The Music Club has no dearth of instruments, and is constantly busy in nurturing new talents. Membership is restricted to the students of IIEST, Shibpur Only."/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT THE FACEBOOK PAGE"
+            android:layout_marginTop="10dp"
+            android:onClick="fb"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+
+    </LinearLayout>
+</ScrollView>

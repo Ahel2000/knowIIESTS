@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Quizomaniac">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUIZOMANIAC"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_orange_dark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Founded way back on 9th April, 2008, Quizmaniac Beings is the oldest and most prestigious club of IIEST Shibpur. Under the mentorship of Dr. Indranath Sinh, the club has come a long way from its humble beginnings in N235, to having already organized the first of its kind and the largest quiz of Kolkata. From Tata Crucible winner Santanu Dey(Class of '89) to Spring Fest winner Shanto Ganguly (Class of '14) to Biz Quiz Runners Up Souvik Maity, Debneel Bagchi, Deepan Das and Shreya Sharma at Kshitij, 2015, Quizmaniac Beings has established itself over the years as a force to be reckoned with in the Calcutta Quizzing Circuit.
+Quizmaniac BEings proudly organized the biggest and the first National Open Quiz Festival by a college in India in 2015 - Gyandhara, with the help and support of the Global Alumni Association of Bengal Engineering and Science University (GAABESU), marked by the SWAG quotient of the then Prez - Swarnava Majumdar (Class of '15), which witnessed high profile quizzers and quizmasters of national repute like Major Chandrakanth Nair, Mr. Souvik Basu and Mr. Somnath Chanda. The event boasted of a net footfall of 1200 quizzers from top universities and colleges across India apart from the classics who arrived the great Indian wine cellar of quizzers."/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT THE FACEBOOK PAGE"
+            android:layout_marginTop="10dp"
+            android:onClick="fb"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+    </LinearLayout>
+</ScrollView>

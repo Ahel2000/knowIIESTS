@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingBottom="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Lesthespians">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="LES THESPIANS"
+            android:textColor="@android:color/holo_orange_dark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The dramatics society of IIEST, Shibpur, Les Thespians has produced many successful and hugely acclaimed theatrical productions since 2009. The society helps the theatre enthusiasts in this institute to build a common platform based on friendship. Simply speaking, theatre is just their medium of making new friends. Les Thespians also hosts the hugely popular drama festival Anuranon (Resonance) every year in the Institute campus. The festival is a week long, and hosts a good collection of theatrical shows - both stage performances and street theatres - from professionals and amateurs alike. Professional theatrical groups like Suman Mukhopadhyaya's Tritiyo Sutro, Koushik Sen's Swapnasandhani, Blank Verse, Ayena Natyo Goshthi, Alternating Living Theatre have staged their hugely acclaimed plays in Anuranon. In Anuranon 5, Les Thespians has modified its definition by welcoming dramatics society from other colleges and institutes like Technology Dramatics Society Druheen, IIT Kharagpur, and Vidyasagar Day College, Kolkata, to stage their plays here."
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT THE FACEBOOK PAGE"
+            android:layout_marginTop="10dp"
+            android:onClick="fb"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+
+    </LinearLayout>
+</ScrollView>

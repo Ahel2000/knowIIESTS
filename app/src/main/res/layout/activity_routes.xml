@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    android:background="#B3E5FC"
+    android:paddingBottom="0dp"
+    tools:context=".routes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B3E5FC"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:context=".routes">
+
+        <TextView
+            android:id="@+id/tvRouteHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="@string/route_head"
+            android:textColor="#212121"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvRouteDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/des"
+            android:textColor="#212121" />
+
+        <TextView
+            android:id="@+id/tvAir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/airport" />
+
+        <TextView
+            android:id="@+id/tvMetro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/metro" />
+
+        <TextView
+            android:id="@+id/tvRail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/rail" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvHowrah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#00BCD4"
+                android:gravity="center_horizontal"
+                android:text="@string/howrah"
+                android:textAllCaps="true"
+                android:textColor="#212121"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="134dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/h1" />
+
+            <TextView
+                android:id="@+id/tvHowrahDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/howrahdes"
+                android:textColor="#212121" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvExide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#00BCD4"
+                android:gravity="center_horizontal"
+                android:text="@string/exide"
+                android:textAllCaps="true"
+                android:textColor="#212121"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvExideDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/exidedes"
+                android:textColor="#212121" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSealdah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="#00BCD4"
+                android:gravity="center_horizontal"
+                android:text="@string/sealdah"
+                android:textAllCaps="true"
+                android:textColor="#212121"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="413dp"
+                android:layout_height="134dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sealdah" />
+
+            <TextView
+                android:id="@+id/tvSealdahDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="@string/sealdahdes"
+                android:textColor="#212121" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDumDum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="#00BCD4"
+                android:gravity="center_horizontal"
+                android:text="@string/dumdum"
+                android:textAllCaps="true"
+                android:textColor="#212121"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="134dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/airport" />
+
+            <TextView
+                android:id="@+id/tvDumDumDes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="@string/dumdumdes"
+                android:textColor="#212121" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

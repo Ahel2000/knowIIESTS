@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".Canteens">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B2EBF2"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        tools:context=".Canteens">
+
+        <TextView
+            android:id="@+id/tvCanteen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0"
+            android:background="#00BCD4"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:text="Canteens"
+            android:textColor="#212121"
+            android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="192dp"
+            android:layout_height="224dp"
+            android:layout_weight="0"
+            android:scaleType="fitXY"
+            android:src="@drawable/images2" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:scaleType="fitXY"
+            android:src="@drawable/institute_canteen" />
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="192dp"
+                android:layout_height="224dp"
+                android:layout_weight="0"
+                android:scaleType="fitXY"
+                android:src="@drawable/ccd"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:scaleType="fitXY"
+                android:src="@drawable/studentcan" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tvCHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0"
+            android:text="@string/canteen_intro" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BCD4"
+                android:gravity="center_horizontal"
+                android:text="@string/list_cant"
+                android:textAllCaps="true"
+                android:textColor="#212121"
+                android:textSize="18sp" />
+
+            <ListView
+                android:id="@+id/lvCanteens"
+                android:layout_width="fill_parent"
+                android:layout_height="2900dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:scrollbarSize="3dp"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollbars="vertical"
+                android:scrollingCache="true"
+                android:smoothScrollbar="true" />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="0dp"
+    android:background="#101010"
+    android:paddingBottom="0dp"
+    tools:context=".routes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#101010"
+        android:orientation="vertical"
+        android:padding="5dp"
+        tools:context=".routes">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="#FFEB3B"
+            android:backgroundTint="#FFEB3B"
+            android:fontFamily="cursive"
+            android:text="GO HANG OUT WITH YOUR FRIENDS!"
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:elevation="12dp"
+            android:id="@+id/view2"
+            app:cardCornerRadius="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="387dp"
+                android:layout_height="239dp"
+                android:layout_marginBottom="18dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/victoria" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAlignment="center"
+            android:text="VICTORIA MEMORIAL\nFelling bored? Feeling stressed? It’s the time to hang around the famous tourist spot Victoria Memorial. The Victoria Memorial is a large marble building in Kolkata, West Bengal, India, which was built between 1906 and 1921. It is dedicated to the memory of Queen Victoria, then Empress of India, and is now a museum and tourist destination under the auspices of the Ministry of Culture.\n\n\n DIRECTIONS FROM IIEST->It takes less than 15 minutes to reach Victoria Memorial by bus or cab. Let’s Enjoy…\n\n BUSES THAT U CAN BOARD->BARASAT-B.GARDEN ; SEALDAH-B.GARDEN ; DHAMKHALI-B.GARDEN ; 213A"
+            android:textColor="#FFB70A" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="#c0c0c0"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9">
+
+            <ImageView
+                android:layout_width="387dp"
+                android:layout_height="239dp"
+                android:layout_marginBottom="18dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bgarden" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAlignment="center"
+            android:text="BOTANICAL GARDEN \n It gives us an immense pleasure to spend sometime in a soothing environment. The perfect place to do so is Acharya Jagadish Chandra Bose Indian Botanic Garden(Previously known as “Indian Botanic Garden” or “Calcutta Botanic Garden”) which is at a distance of less than 1 km from IIEST, Shibpur. The gardens exhibit a wide variety of rare plants and a total collection of over 12,000 specimens spread over 109 hectares including the world famous “Great Banyan Tree”,which is reckoned to be the largest tree in the world. It is under Botanical Survey of India (BSI) of Ministry of Environment and Forests, Government of India. It’s one of most famous tourist spots in West Bengal  to go to.\n\n\nDIRECTIONS FROM IIEST:WALKING DISTANCE FROM IIEST 1ST AND 2ND GATE"
+            android:textColor="#FFB70A"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="#c0c0c0"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9">
+
+            <ImageView
+                android:layout_width="387dp"
+                android:layout_height="239dp"
+                android:layout_marginBottom="18dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/musuem" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAlignment="center"
+            android:text="INDIAN MUSEUM\nMuseum is the place to cherish history remaining in the present. If you are an enthusiast Indian Museum is not so far from you. The Indian Museum in Kolkata, West Bengal, India, also referred to as the Imperial Museum at Calcutta in colonial-era texts, is the ninth oldest museum of the world, oldest museum in India and the largest museum in India It has rare collections of antiques, armour and ornaments, fossils, skeletons, mummies and Mughal paintings. It was founded by the Asiatic Society of Bengal in Kolkata (Calcutta), India, in 1814. The founder curator was Nathaniel Wallich, a Danish botanist.\n\n\n DIRECTIONS FROM IIEST->It takes less than 15 minutes to reach Victoria Memorial by bus or cab. Let’s Enjoy…\n\n BUSES THAT U CAN BOARD->BARASAT-B.GARDEN ; SEALDAH-B.GARDEN ; DHAMKHALI-B.GARDEN ; 213A"
+            android:textColor="#FFB70A" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="#c0c0c0"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9">
+
+            <ImageView
+                android:layout_width="387dp"
+                android:layout_height="239dp"
+                android:layout_marginBottom="18dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/princep" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAlignment="center"
+            android:text="PRINCEP GHAT\nThe ideal atmosphere to calm yourself down from anxiety is there at Prinsep ghat. Prinsep Ghat is a ghat built in 1841 during the British Raj, along the Kolkata bank of the Hooghly River in India. The Palladian porch in the memory of the eminent Anglo-Indian scholar and antiquary James Prinsep was designed by W. Fitzgerald and constructed in 1843."
+            android:textColor="#FFB70A" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="#c0c0c0"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9">
+
+            <ImageView
+                android:layout_width="387dp"
+                android:layout_height="239dp"
+                android:layout_marginBottom="18dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/nandan" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAlignment="center"
+            android:text="NANDAN\nSometimes we want to get out from the real life and enjoy the reel life. Nandan gives you that refreshment. Nandan is a government-sponsored film and cultural centre in Kolkata, India.[2] The primary aim of the cultural hub is to encourage and facilitate cinematic awareness in society. It includes a few comparatively large screens housed in an impressively architectured building. The complex, besides being a modern cinema and cultural complex, is a popular destination for the young and the aged alike. Not more than 15 minutes is what you need to reach Nandan from IIEST by bus or cab.\n\n\n DIRECTIONS FROM IIEST->It takes less than 15 minutes to reach Victoria Memorial by bus or cab. Let’s Enjoy…\n\n BUSES THAT U CAN BOARD->BARASAT-B.GARDEN ; SEALDAH-B.GARDEN ; DHAMKHALI-B.GARDEN ; 213A"
+            android:textColor="#FFB70A" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="#c0c0c0"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:elevation="12dp"
+            app:cardCornerRadius="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9">
+
+            <ImageView
+                android:layout_width="387dp"
+                android:layout_height="239dp"
+                android:layout_marginBottom="18dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/zoo" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:textAlignment="center"
+            android:text="ALIPOOR ZOO\nIf you want to enjoy the diversity of life Alipore zoo is an ideal place, which takes around 30 minutes to go from IIEST. The Zoological Garden, Alipore (also informally called the Alipore Zoo or Calcutta Zoo) is India's oldest formally stated zoological park (as opposed to royal and British menageries) and a big tourist attraction in Kolkata, West Bengal. It has been open as a zoo since 1876, and covers 18.811 ha (46.48 acres). It is probably best known as the home of the now expired Aldabra giant tortoise Adwaita, who was reputed to have been over 250 years old when he died in 2006. It is also home to one of the few captive breeding projects involving the Manipur brow-antlered deer. It draws huge crowds during the winter season, especially during December and January."
+            android:textColor="#FFB70A" />
+    </LinearLayout>
+</ScrollView>

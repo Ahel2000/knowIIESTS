@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="0dp"
+    android:paddingBottom="0dp"
+    android:background="#00BCD4"
+    tools:context=".grading">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B2EBF2"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="30dp"
+        tools:context=".grading">
+
+        <TextView
+            android:id="@+id/tvAboutHead"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:soundEffectsEnabled="false"
+            android:text="GRADING SYSTEM AND SYLLABUS"
+            android:textColor="#252525"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:fontFamily="cursive"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="In present scenario,it very important to have good grades. Though grades don't gurantee success, grades can open several doors and lead you to success. So, its very important to keep your cgpa as high as possible."
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="104dp" />
+
+        <TextView
+            android:id="@+id/tvAboutHead1"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:soundEffectsEnabled="false"
+            android:text="CALCULATION OF CGPA AND GPA"
+            android:textColor="#252525"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tvAboutHead2"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:soundEffectsEnabled="false"
+            android:text="Every subject has a credit(C).The grade point one gets in a subject is denoted by grade(G).\n 1)S.G.P.A.(Semester Grade Point Average) : ⅀(Ci.Gi)/⅀(Ci)\n2)C.G.P.A.(Cumulative Grade Point Average) : ⅀(Ci.Gi)/⅀(Ci)"
+            android:textColor="#252525"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:soundEffectsEnabled="false"
+            android:text="BACKLOGS"
+            android:textColor="#252525"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:soundEffectsEnabled="false"
+            android:text="Here S.G.P.A. reflects performance of a student in a specific semester whereas C.G.P.A. reflects the overall performance of a student throughout all semesters.
+\n(>)Grade point below 5 in a theory paper leads to supplimentary exam.
+\n(>)Marks below 50% in a laboratory subject leads to backlog."
+            android:textColor="#252525"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/but"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="24dp"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:text="CLICK TO VIEW THE CREDITS AND SYLLABUS OF DIFFERENT SUBJECTS" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text="EVALUATION OF THEORY COURSES"
+            android:textColor="#FF9800"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="The evaluation of students' performance in a theory course is a continuous process. A Student’s performance in theory papers will be evaluated through Internal Assessment and an End-Semester Examination." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text="Examinations"
+            android:textColor="#9C27B0"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="In any semester, for theory courses there will be mid-semester examinations and end-semester examinations, conducted centrally by the Academic Section. \n(>)Mid-semester examinations will be held in the middle of a semester, generally after completion of the first six to seven weeks of study. \n(>)Endsemester examinations will be held after the completion of the course. The dates of such examinations will be displayed in the Academic calendar.
+
+\n(>)There will be supplementary examinations for the theory courses in which students have failed. Each year, supplementary examinations will be held after the publication of even semester results. Supplementary examinations are equivalent to the end-semester examinations and the students can retain their internal assessment.
+
+\n(>)In the Summer Term also, for theory papers there will be mid-term examinations and end-term examinations, similar to mid-semester and end-semester examinations.
+
+\n(>)The dates all examinations will be displayed in the Academic calendar." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text="Internal Assessment"
+            android:textColor="#9C27B0"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="(>)The Internal Assessment has two components – i) performance in mid-semester examination and Teacher’s assessment.
+
+\n(>)The Teacher’s assessment may have the following components – class tests, quizzes, home assignments, group assignments, viva-voce etc. as per the teacher’s discretion." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text="Weightages"
+            android:textColor="#9C27B0"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="A typical distribution of relative weightage for the various modes of assessments is mentioned below. The course teacher will inform the students about these weightages at the start of the semester.
+
+\n(>)Mid-semester examination : 30%
+\n(>)Teacher’s assessment : 20%
+\n(>)End-semester Assessment : 50%" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text="EVALUATION OF LAB COURSES"
+            android:textColor="#FF9800"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="The assessment in a laboratory course will be based on continuous evaluation of the student’s weekly performance in laboratory experiments/ work, quality of their reports and a final performance in a semester-end test that contains experiment/quiz/test/viva-voce. The semester-end test on laboratory sessional will normally be held a week before the end-semester theory examinations." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text="Weightages"
+            android:textColor="#9C27B0"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="A typical distribution of relative weightage for the various modes of assessments is mentioned below. The course teacher will inform the students about these weightages at the start of the semester.
+
+\n(>)Regular performance in laboratory works : 30%
+\n(>)Quality of laboratory reports : 30%
+\n(>)Semester-end test : 20%
+\n(>)Viva-voce/Teacher’s Assessment : 20%" />
+        <TextView
+            android:id="@+id/tvAboutHead6"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00BCD4"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:soundEffectsEnabled="false"
+            android:text="ACADEMIC CALENDAR"
+            android:textColor="#252525"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="86dp"
+            android:fontFamily="cursive"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Its also important to know about the events happening in your colledge. So here is the academic calendar for 2020-2021"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="104dp" />
+        <Button
+            android:id="@+id/but1"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="24dp"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:text="CLICK TO VIEW THE ACADEMIC CALENDAR" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".Catharsis">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".Catharsis">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_orange_dark"
+            android:text="CATHARSIS"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Founded as BECPhoS [Bengal Engineering College Photographic Society] in 1971 and later reformed as Catharsis in 2009, this society has come a long way. Catharsis is a platform for creative expressions through the medium of photographs. Photography is a way of capturing moments, memories and preserving them forever. Catharsis aims to inculcate a love of photography among students. Seeing the universe through the lens, it helps young photo-enthusiasts to interpret a world of their own. The objective of Catharsis is to inculcate the love for art photography among the student community. Looking through the lens, we attempt to present our own interpretation of the complex world around us, with the faint hope that this will help us to move one small step forward towards a better tomorrow. Catharsis carries the legacy of BECPHOS, the first photographic club of this institute (then known as the Bengal Engineering College) that was established in the seventies. BECPHOS was active for about a decade, before fizzling out in early eighties due to various reasons. After a long, bleak period, in 2008, a handful of students of BESU decided to pursue photography as an art. That is how Catharsis came into being."
+            android:textColor="@color/colorPrimaryDark"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT THE WEBSITE"
+            android:layout_marginTop="20dp"
+            android:onClick="site"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VISIT THE FACEBOOK PAGE"
+            android:layout_marginTop="10dp"
+            android:onClick="fb"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+
+    </LinearLayout>
+</ScrollView>
