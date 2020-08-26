@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
             @Override
             public void run() {
                 Intent mainIntent = new Intent(MainActivity.this , menu.class);
+                MainActivity.this.finish();
                 startActivity(mainIntent);
             }
         },3000);
