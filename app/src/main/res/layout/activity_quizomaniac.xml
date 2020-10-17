@@ -30,7 +30,7 @@ Quizmaniac BEings proudly organized the biggest and the first National Open Quiz
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="VISIT THE FACEBOOK PAGE"
+            android:text="VISIT THE FACEBOOK PAGE OF QUIZOMANIAC"
             android:layout_marginTop="10dp"
             android:onClick="fb"
             android:textColor="@android:color/white"
