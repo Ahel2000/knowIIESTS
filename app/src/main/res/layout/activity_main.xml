@@ -14,7 +14,7 @@
 
     android:background="@color/colorPrimaryDark"
     android:fontFamily="@font/aladin"
-    android:text="ALL YOU NEED TO KNOW "
+    android:text="GIVE WINGS TO YOUR DREAMS "
     android:layout_marginTop="20dp"
     android:textColor="@android:color/primary_text_dark"
     android:textStyle="italic"
@@ -27,7 +27,7 @@
         android:layout_marginBottom="100dp"
         android:background="@color/colorPrimaryDark"
         android:fontFamily="@font/aladin"
-        android:text="ABOUT IIESTS"
+        android:text="AT IIEST SHIBPUR..."
         android:textColor="@android:color/primary_text_dark"
         android:textStyle="italic"
         android:layout_gravity="center_horizontal"
