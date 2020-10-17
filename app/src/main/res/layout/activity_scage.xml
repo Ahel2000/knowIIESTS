@@ -34,7 +34,7 @@ First Work - The first work of the Society was a Graffiti named, The Evolution. 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="VISIT THE FACEBOOK PAGE"
+            android:text="VISIT THE FACEBOOK PAGE OF SCAGE"
             android:layout_marginTop="10dp"
             android:onClick="fb"
             android:textColor="@android:color/white"
