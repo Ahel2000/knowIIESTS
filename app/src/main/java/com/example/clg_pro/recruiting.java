@@ -17,7 +17,7 @@ public class recruiting extends Activity {
         setContentView(R.layout.activity_recruiting);
     }
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+        // Allows including options in the drop down menu that becomes visible on clicking the three dots icon
         getMenuInflater().inflate(R.menu.popup_menu, menu);
         return super.onCreateOptionsMenu(menu);
     }
