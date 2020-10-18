@@ -62,7 +62,7 @@ public class about_us extends Activity {
             public void onClick(View v) {
                 Intent intent=new Intent(Intent.ACTION_SENDTO);
                 intent.setData(Uri.parse("mailto:"));
-                intent.putExtra(Intent.EXTRA_EMAIL,new String[]{"aheldc@gmail.com"});
+                intent.putExtra(Intent.EXTRA_EMAIL,new String[]{"aheldc4@gmail.com"});
 
                 if ((intent.resolveActivity(getPackageManager())!=null)){
                     startActivity(intent);
