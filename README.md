@@ -6,6 +6,14 @@ The project has been created by-
 - Sounak Majumder
 - Ahel Das Chatterjee
 
+The project also has its own website that was built side by side with the app. The website was created by-
+- Snehasish Dhar
+- Malay Gain
+- Devtanu Misra
+- Sounak Majumder
+
+Here is the link to our website: https://5f9449c2ecd78c0007fe8667--clever-tesla-cae24e.netlify.app/
+
 <hr>
 
 <p float="left">
