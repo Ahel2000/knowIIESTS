@@ -8,6 +8,7 @@ knowIIESTS is an app built by the students of IIEST Shibpur to help the freshers
  </p>
  
  <p float="left">
+ <img src="./Screenshots/Screenshot_20200804-111752.jpg" height="500" width="300"/>
 <img src="./screenshots/books1.jpg" height="500" width="300"/>
 <img src="./screenshots/books2.jpg" height="500" width="300"/>
 
