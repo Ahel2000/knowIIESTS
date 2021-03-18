@@ -6,6 +6,8 @@ The project has been created by-
 - Sounak Majumder
 - Ahel Das Chatterjee
 
+<hr>
+
 <p float="left">
 <img src="./screenshots/home1.jpg" height="500" width="300"/>
 <img src="./screenshots/home2.jpg" height="500" width="300"/>
