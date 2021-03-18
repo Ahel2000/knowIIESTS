@@ -1,5 +1,5 @@
 ### knowIIESTS
-knowIIESTS is an app built by the students of IIEST Shibpur to help the freshers know about the college. It predominantly is a frontend-only app, but has been used by a large number of students throughout the college. The app has the books referred by our professors and class notes, important bus routes to our college, tourist attraction around our college, review of the canteens within our campus and many more. We would also like to hear your views on this project.
+knowIIESTS is an app built by a few students of IIEST Shibpur towards the end of our first year to help the incoming freshers know about the college. It predominantly is a frontend-only app, but has been used by a large number of students throughout the college. The app has the books referred by our professors and class notes, important bus routes to our college, tourist attraction around our college, review of the canteens within our campus and many more. We would also like to hear your views on this project.
 
 The project has been created by-
 - Anish De
